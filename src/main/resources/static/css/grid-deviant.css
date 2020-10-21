@@ -1,0 +1,28 @@
+.main {
+    justify-content: center;
+    background: url(../photos/solid.jpg);
+    min-height: 100%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    
+    height: 275px;
+    
+}
+
+#jumboButton {
+    background-color: #333333;
+    border: #333333;
+}
